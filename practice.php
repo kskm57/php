@@ -5,26 +5,26 @@ echo '<br>';
 
 $a = 3;
 $b = 7;
-echo '課題1' .$a + $b;
+echo '課題1' . $a + $b;
 
 echo '<br>';
 
 $array_month = ["1月", "2月", "3月", "4月", "5月", "6月", 
 "7月", "8月", "9月", "10月", "11月", "12月"];
-echo '課題2 ' .$array_month[9];
+echo '課題2 ' . $array_month[7];
 
 echo '<br>';
 
-$hello = "Hello,";
+$hello = "Hello, ";
 $name = "Shota";
 $world = "'s World!";
-echo '課題3 ' .$hello.$name.$world;
+echo '課題3 ' . $hello.$name.$world;
 
 echo '<br>';
 
-$tech_boost = "tech";
+$tech_boost = "tech ";
 $tech_boost .="boost";
-echo '課題4 ' .$tech_boost;
+echo '課題4 ' . $tech_boost;
 
 echo '<br>';
 
@@ -44,4 +44,4 @@ $calendar_2018 = [
 ];
 
 // 12月を表示する
-echo '課題5 '.$calendar_2018["December"];
+echo '課題5 ' . $calendar_2018["December"];
